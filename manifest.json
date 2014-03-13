@@ -6,6 +6,7 @@
   "permissions": [
     "tabs",
     "activeTab",
+    "storage",
     "declarativeContent",
     "https://*.github.com/*",
     "https://render.github.com/*",
@@ -16,6 +17,7 @@
     "page": "background.html",
     "persistent": false
   },
+  "options_page": "options.html",
   "content_scripts": [
     {
       "matches": ["https://github.com/*/compare/*"],
