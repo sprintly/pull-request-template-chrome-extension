@@ -11,6 +11,8 @@ cross-origin policy.
 
 Thanks to Rémi (in the comments of blog post above) for the idea!
 
-
 WARNING: This extension is a big hack that was finished over an evening. Don't
 judge me based on this code.
+
+## Chrome Download Link
+https://chrome.google.com/webstore/detail/purty/efclbmjddhkddbchknpahlddnpnadjlm
