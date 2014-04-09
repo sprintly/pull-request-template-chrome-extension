@@ -2,9 +2,9 @@ function loadPullRequestTemplate() {
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function () {
     if (xhr.readyState === 4) {
-      var el = document.getElementById('pull_request_body');
+      var el = document.getElementById('pull_request_body') || document.getElementById('id_description');
       if (el !== null) {
-        el.innerText = xhr.responseText;
+        el.value = xhr.responseText;
       }
     }
   };
