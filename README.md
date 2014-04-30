@@ -16,3 +16,7 @@ judge me based on this code.
 
 ## Chrome Download Link
 https://chrome.google.com/webstore/detail/purty/efclbmjddhkddbchknpahlddnpnadjlm
+
+## Supports
+  * GitHub
+  * BitBucket

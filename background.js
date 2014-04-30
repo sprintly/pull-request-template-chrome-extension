@@ -18,6 +18,12 @@ chrome.runtime.onInstalled.addListener(function() {
               hostSuffix: 'github.com',
               urlContains: '/compare/'
             },
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {
+              hostSuffix: 'bitbucket.org',
+              urlContains: '/pull-request/new'
+            },
           })
         ],
         // And shows the extension's page action.
