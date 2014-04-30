@@ -11,6 +11,7 @@
     "https://*.github.com/*",
     "https://render.github.com/*",
     "https://raw.github.com/*",
+    "https://raw.githubusercontent.com/*",
     "https://github.com/*",
     "https://bitbucket.org/*"
   ],
